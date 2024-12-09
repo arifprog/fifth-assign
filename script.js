@@ -1,4 +1,4 @@
-//Create a variable called carName, assign the value Volvo to it.
+//lastNameastName/Create a variable called carName, assign the value Volvo to it.
 
 let carName = "Volvo";
 console.log(carName);
@@ -27,3 +27,24 @@ x = 10;
 y = 5;
 console.log(x*=y);
 //(proved)
+
+//Use comments to describe the correct data type of the following variables:
+
+let length = 16; // number 
+let last_Name = "Johnson"; // string
+
+const z = {
+  firstName: "John",  
+  lastName: "Doe"
+};    // object 
+
+
+
+//Execute the function named myFunction.
+ 
+ function myFunction() {
+  alert("Hello World!");
+}
+
+// call the function and see the output 
+
