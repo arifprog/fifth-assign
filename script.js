@@ -1,7 +1,7 @@
 //Create a variable called carName, assign the value Volvo to it.
 
 let carName = "Volvo";
-document.write(carName);
+console.log(carName);
 
 //On one single line, declare three variables with the following names and values:
 
@@ -16,5 +16,14 @@ let age = 35;*/
 
 let firstName = "John", lastName = "Doe", age = 35;
 
-document.write(firstName,lastName,age);
+console.log(firstName,lastName,age);
 
+
+
+/*Use the correct **assignment operator** that will 
+result in x being 50 (same as x = x * y).*/
+
+x = 10;
+y = 5;
+console.log(x*=y);
+//(proved)
