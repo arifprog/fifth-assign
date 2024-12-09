@@ -46,5 +46,5 @@ const z = {
   alert("Hello World!");
 }
 
-// call the function and see the output 
+myFunction();
 
