@@ -97,13 +97,17 @@ console.log(c);
 x = 10;
 y = 5;
 
-alert() // ? 
+alert(x>y);
 
 
 
 //Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
 
+let ageOne = 10;
+alert(ageOne < 18 ? "Too young" : "Old enough");
 
+let ageTwo = 20;
+alert(ageTwo < 18 ? "Too young" : "Old enough");
 
 
 
