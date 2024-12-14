@@ -146,6 +146,26 @@ console.log(sum(10, 20)); // 30
 
 
 
+//Write a function to find the smallest number in an array. The function should take a single argument, which is the array to search.
+
+  
+function findSmallestNum(arr) {
+  let smallestNum = arr [0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < smallestNum){
+      smallestNum = arr[i];
+    }
+  }
+  
+  return smallestNum;
+}
+
+console.log(findSmallestNum([3, 5, 1, 9])); // 1
+console.log(findSmallestNum([-1, -5, 0, 10])); // -5
+
+
+
+
 
 
 
