@@ -165,6 +165,25 @@ console.log(findSmallestNum([-1, -5, 0, 10])); // -5
 
 
 
+//Write a function to count the number of vowels in a string. The function should take a single argument, which is the string to search.
+  
+function countVowels(str) {
+ let vowels = 'aeiouAEIOU';
+ let countVowel = 0;
+  for(let alphabet of str){
+    if(vowels.includes(alphabet)){
+      countVowel++;
+    }
+  }
+  
+  return countVowel;
+}
+
+console.log(countVowels("hello world")); // 3
+console.log(countVowels("Javascript")); // 3
+
+
+
 
 
 
